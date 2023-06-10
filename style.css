@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+    background-image: url(https://i.redd.it/n02uwbfazym81.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.clock{
+    text-shadow: 2px 2px 2px rgb(9, 151, 187);
+    color: rgba(1, 17, 17, 0.7);
+   font-family: 'Nova Mono', monospace;
+   margin-bottom: 30px;
+}
+.container{
+    widows: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clockx{
+    
+    text-align: center;
+    padding: 7px 7px 7px 7px;
+}
+.m{
+      font-family: monospace;
+    font-size: 30px;
+    color: rgb(24, 204, 174);
+    filter: blur(1px);
+}
+
+.hidden{
+    display: none;
+}
